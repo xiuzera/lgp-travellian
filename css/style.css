@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  min-width: 100vh;
+  background-image: url(fundo.png);
+  background-size: cover;
+}
+
+#logo a {
+  margin: 165px auto 0 82px;
+  position: absolute;
+  width: 270px;
+  height: 52.63px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 68px;
+  color: #FFFFFF;
+  line-height: 117%;
+  width: 455px;
+  margin: 75px auto 97px 82px;
+}
+
+p {
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 117%;
+  width: 434px;
+  margin: 97px auto 58px 82px;
+}
+
+button {
+  color: black;
+  font-size: 28px;
+  background: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 36px 18px 36px;
+  gap: 10px;
+  border-radius: 100px;
+  margin: 0 auto auto 82px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
